@@ -42,5 +42,26 @@ SESSION_SECRET=your_secret_key
 # Run the server
 npm start
 ------------------------------------------------------------------------------------------------------------------------------
+## Project Structure
+├── models/
+│   ├── blog.js
+│   ├── comment.js
+├── routes/
+│   ├── blog.js
+│   ├── authentication.js
+├── views/
+│   ├── addBlog.ejs
+│   ├── blog.ejs
+│   ├── home.ejs
+│   ├── nav.ejs
+│   ├── head.ejs
+│   ├── script.ejs
+├── public/
+│   └── uploads/
+├── index.js
+├── package.json
+├── .gitignore
+└── README.md
+------------------------------------------------------------------------------------------------------------------------------
 Server will start at 👉 http://localhost:PORT
 ```
