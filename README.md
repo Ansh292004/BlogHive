@@ -43,25 +43,44 @@ SESSION_SECRET=your_secret_key
 npm start
 ------------------------------------------------------------------------------------------------------------------------------
 ## Project Structure
-├── models/
+
+BlogHive/                     # Root folder of the project
+│
+├── middlewares/              # Custom middlewares
+│   └── authentication.js
+│
+├── models/                   # Database models (Mongoose schemas)
 │   ├── blog.js
 │   ├── comment.js
-├── routes/
+│   └── user.js
+│
+├── public/                   # Static files
+│   ├── images/               
+│   └── uploads/          
+│
+├── routes/                   # API routes
 │   ├── blog.js
-│   ├── authentication.js
-├── views/
+│   └── user.js
+│
+├── service/                 
+│   └── auth.js
+│
+├── views/                    # EJS views
+│   ├── partials/            
+│   │   ├── nav.ejs
+│   │   ├── script.ejs
+│   │   └── head.ejs
+│   │
 │   ├── addBlog.ejs
 │   ├── blog.ejs
 │   ├── home.ejs
-│   ├── nav.ejs
-│   ├── head.ejs
-│   ├── script.ejs
-├── public/
-│   └── uploads/
-├── index.js
-├── package.json
-├── .gitignore
-└── README.md
+│   ├── signin.ejs
+│   └── signup.ejs            
+│
+├── .gitignore                # Ignore sensitive files & folders (e.g. .env, node_modules, uploads)
+├── index.js                  
+├── package.json              # Project metadata and dependencies
+└── server.js                 # Main entry file
 ------------------------------------------------------------------------------------------------------------------------------
 Server will start at 👉 http://localhost:PORT
 ```
