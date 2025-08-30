@@ -1,8 +1,9 @@
 BLOGHIVE
 
 A full-stack blogging platform with a strong focus on backend development. Built with Node.js, Express, MongoDB, and EJS, this project allows users to create, read, and comment on blogs with authentication and file upload support.
-----------------------------------------------------------------------------------------------------------------------------
-Features-------------------------
+```
+Features----------
+
 User authentication (signup/login/logout)
 
 Create, update, and delete blogs
@@ -15,7 +16,7 @@ MongoDB models for users, blogs, and comments
 
 Clean separation of routes, models, and views
 -----------------------------------------------------------------------------------------------------------------------------
-Tech Stack--------------------
+Tech Stack----------
 
 Backend: Node.js, Express.js, MongoDB (Mongoose)
 
@@ -25,7 +26,7 @@ File Uploads: Multer
 
 Authentication: JWT (can use passport js)
 ------------------------------------------------------------------------------------------------------------------------------
-Setup & Installation-----------------
+Setup & Installation----------
 # Clone the repo
 git clone https://github.com/Ansh292004/BlogHive.git
 cd BlogHive
@@ -42,3 +43,4 @@ SESSION_SECRET=your_secret_key
 npm start
 ------------------------------------------------------------------------------------------------------------------------------
 Server will start at 👉 http://localhost:PORT
+```
