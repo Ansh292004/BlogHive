@@ -1,4 +1,4 @@
-BLOGHIVE
+# BLOGHIVE
 
 A full-stack blogging platform with a strong focus on backend development. Built with Node.js, Express, MongoDB, and EJS, this project allows users to create, read, and comment on blogs with authentication and file upload support.
 ```
