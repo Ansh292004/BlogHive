@@ -11,11 +11,6 @@ router.get('/signin',(req,res)=>{
 });
 
 
-//SHOW SIGNUP FORM---------------------------------------------------
-router.get('/signup',(req,res)=>{   
-    res.render('signup');
-});
-
 //HANDLING USER SIGNUP-----------------------------------------------
 router.post('/signup',async (req,res)=>{
     const {fullName,email,password}=req.body;
