@@ -1,6 +1,5 @@
 const mongoose=require('mongoose');
 const Schema = mongoose.Schema;
-//this is the schema for the blogs
 const blogSchema=new mongoose.Schema({
     title:{
         type:String,
@@ -46,3 +45,4 @@ module.exports={
     Blog,
 
 };
+
